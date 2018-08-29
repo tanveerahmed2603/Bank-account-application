@@ -26,11 +26,7 @@ public class Student {
         System.out.print("Enter student class level: ");
         this.classYear = in.nextInt();
 
-        /*System.out.println("STUDENT INFO\n" + "Name: " + this.firstName + " " + this.lastName + "\n" + "Class level: " + this.classYear);*/
-        /*System.out.println("student ID: " + this.id);*/
-
         setStudentId();
-        /*System.out.println("Student ID: " + this.studentID);*/
 
     }
 
@@ -57,9 +53,6 @@ public class Student {
                 break;
             }
         } while (1!=0);
-
-		/*System.out.println("Enroll in: " + courses);
-		System.out.println("Tuituion balance: " + tuitionBalance);*/
     }
 
     // View balance and pay tuition
